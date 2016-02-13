@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Sample Website. Figure. Canvas Test. Video. Audio </title>
+
+    
+    
+    <script>
+        function f1 () {
+            var canvas=
+                document.getElementById("sml Rectangle");
+            context=canvas.getContext("2d");
+            context.fillStyle="rgb(0,0,255)";
+            context.fillRect(10, 20, 200, 100);
+            
+        }
+    </script>
+
+</head>
+
+
+
+<body onload="f1();">
+    
+    
+
+<p> Hello world <p>
+
+<h1>Pet Care 101 </h1>
+
+<h1 class="foo"> News </h1>
+
+<a href="http://kickasstrip.com/"> This e link </a>
+
+
+<p> Make sure your pet has planty of <i> <b> fresh water </b> </i> during hot weather </p>
+
+<img src="" alt="dog">
+
+
+
+
+<figure>
+    <img src="Like.jpg" alt="like-dog" width="100" height="125">
+    <img src="Labl.jpg" alt="lablador" width="100" height="125">
+    <img src="doberman.jpg" alt="doberman" width="100" height="125">
+    <figcaption> Happy dogs are good dogs </figcaption>
+</figure>
+
+
+
+
+
+<canvas id = "smlRectangle"  height="200" width="100">
+</canvas>
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <polygon points="100,10 40,180 190, 60 10, 60 160, 180"
+    style="fill:aqua; stroke:orange; stroke-width: 5; fill-rule: evenodd;">
+        </polygon>
+</svg>
+
+
+<video width="320" height="240" controls>
+    <source src="movi.mp4" type="video/mp4">
+    <source src="movi.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+
+<audio src="sample.mp3" controls="controls">
+    </audio>
+
+
+
+
+
+
+</body>
+</html>
